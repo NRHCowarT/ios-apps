@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		98CBAD401A5C2A1E002C1EBC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CBAD3F1A5C2A1E002C1EBC /* main.m */; };
+		98CBAD431A5C2A1E002C1EBC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CBAD421A5C2A1E002C1EBC /* AppDelegate.m */; };
+		98CBAD4B1A5C2A1E002C1EBC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98CBAD4A1A5C2A1E002C1EBC /* Images.xcassets */; };
+		98CBAD4E1A5C2A1E002C1EBC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98CBAD4C1A5C2A1E002C1EBC /* LaunchScreen.xib */; };
+		98CBAD5A1A5C2A1E002C1EBC /* HumanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CBAD591A5C2A1E002C1EBC /* HumanTests.m */; };
+		98CBAD651A5C386C002C1EBC /* Arm.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CBAD641A5C386C002C1EBC /* Arm.m */; };
+		98CBAD681A5C3887002C1EBC /* hand.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CBAD671A5C3887002C1EBC /* hand.m */; };
+		98CBAD6B1A5C38A7002C1EBC /* finger.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CBAD6A1A5C38A7002C1EBC /* finger.m */; };
+		98CBAD6E1A5C391A002C1EBC /* Thumb.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CBAD6D1A5C391A002C1EBC /* Thumb.m */; };
+		98CBAD711A5C6684002C1EBC /* Human.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CBAD701A5C6684002C1EBC /* Human.m */; };
+		98CBAD771A5C6B8F002C1EBC /* Body.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CBAD761A5C6B8F002C1EBC /* Body.m */; };
+		98CBAD7A1A5C6DA2002C1EBC /* Leg.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CBAD791A5C6DA2002C1EBC /* Leg.m */; };
+		98CBAD7D1A5C6E03002C1EBC /* Head.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CBAD7C1A5C6E03002C1EBC /* Head.m */; };
+		98CBAD801A5C727C002C1EBC /* Knee.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CBAD7F1A5C727C002C1EBC /* Knee.m */; };
+		98CBAD831A5C7502002C1EBC /* Foot.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CBAD821A5C7502002C1EBC /* Foot.m */; };
+		98CBAD861A5C7683002C1EBC /* Toe.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CBAD851A5C7683002C1EBC /* Toe.m */; };
+		98CBAD891A5C79C9002C1EBC /* Neck.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CBAD881A5C79C9002C1EBC /* Neck.m */; };
+		98CBAD8C1A5C7EFB002C1EBC /* Mouth.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CBAD8B1A5C7EFB002C1EBC /* Mouth.m */; };
+		98CBADC41A5C8F63002C1EBC /* Nose.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CBADC31A5C8F63002C1EBC /* Nose.m */; };
+		98CBADC71A5C8FD4002C1EBC /* Eyes.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CBADC61A5C8FD4002C1EBC /* Eyes.m */; };
+		98CBADCA1A5C911B002C1EBC /* Lips.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CBADC91A5C911B002C1EBC /* Lips.m */; };
+		98CBADCD1A5C912E002C1EBC /* Ears.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CBADCC1A5C912E002C1EBC /* Ears.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		98CBAD541A5C2A1E002C1EBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98CBAD321A5C2A1E002C1EBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98CBAD391A5C2A1E002C1EBC;
+			remoteInfo = Human;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		98CBAD3A1A5C2A1E002C1EBC /* Human.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Human.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98CBAD3E1A5C2A1E002C1EBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98CBAD3F1A5C2A1E002C1EBC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		98CBAD411A5C2A1E002C1EBC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		98CBAD421A5C2A1E002C1EBC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		98CBAD4A1A5C2A1E002C1EBC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		98CBAD4D1A5C2A1E002C1EBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		98CBAD531A5C2A1E002C1EBC /* HumanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HumanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98CBAD581A5C2A1E002C1EBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98CBAD591A5C2A1E002C1EBC /* HumanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HumanTests.m; sourceTree = "<group>"; };
+		98CBAD631A5C386C002C1EBC /* Arm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Arm.h; sourceTree = "<group>"; };
+		98CBAD641A5C386C002C1EBC /* Arm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Arm.m; sourceTree = "<group>"; };
+		98CBAD661A5C3887002C1EBC /* hand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hand.h; sourceTree = "<group>"; };
+		98CBAD671A5C3887002C1EBC /* hand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = hand.m; sourceTree = "<group>"; };
+		98CBAD691A5C38A7002C1EBC /* finger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = finger.h; sourceTree = "<group>"; };
+		98CBAD6A1A5C38A7002C1EBC /* finger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = finger.m; sourceTree = "<group>"; };
+		98CBAD6C1A5C391A002C1EBC /* Thumb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Thumb.h; path = ../Thumb.h; sourceTree = "<group>"; };
+		98CBAD6D1A5C391A002C1EBC /* Thumb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Thumb.m; path = ../Thumb.m; sourceTree = "<group>"; };
+		98CBAD6F1A5C6684002C1EBC /* Human.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Human.h; sourceTree = "<group>"; };
+		98CBAD701A5C6684002C1EBC /* Human.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Human.m; sourceTree = "<group>"; };
+		98CBAD751A5C6B8F002C1EBC /* Body.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Body.h; sourceTree = "<group>"; };
+		98CBAD761A5C6B8F002C1EBC /* Body.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Body.m; sourceTree = "<group>"; };
+		98CBAD781A5C6DA2002C1EBC /* Leg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Leg.h; sourceTree = "<group>"; };
+		98CBAD791A5C6DA2002C1EBC /* Leg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Leg.m; sourceTree = "<group>"; };
+		98CBAD7B1A5C6E03002C1EBC /* Head.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Head.h; sourceTree = "<group>"; };
+		98CBAD7C1A5C6E03002C1EBC /* Head.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Head.m; sourceTree = "<group>"; };
+		98CBAD7E1A5C727C002C1EBC /* Knee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Knee.h; sourceTree = "<group>"; };
+		98CBAD7F1A5C727C002C1EBC /* Knee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Knee.m; sourceTree = "<group>"; };
+		98CBAD811A5C7502002C1EBC /* Foot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Foot.h; sourceTree = "<group>"; };
+		98CBAD821A5C7502002C1EBC /* Foot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Foot.m; sourceTree = "<group>"; };
+		98CBAD841A5C7683002C1EBC /* Toe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Toe.h; sourceTree = "<group>"; };
+		98CBAD851A5C7683002C1EBC /* Toe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Toe.m; sourceTree = "<group>"; };
+		98CBAD871A5C79C9002C1EBC /* Neck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Neck.h; sourceTree = "<group>"; };
+		98CBAD881A5C79C9002C1EBC /* Neck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Neck.m; sourceTree = "<group>"; };
+		98CBAD8A1A5C7EFB002C1EBC /* Mouth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mouth.h; sourceTree = "<group>"; };
+		98CBAD8B1A5C7EFB002C1EBC /* Mouth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mouth.m; sourceTree = "<group>"; };
+		98CBADC21A5C8F63002C1EBC /* Nose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nose.h; sourceTree = "<group>"; };
+		98CBADC31A5C8F63002C1EBC /* Nose.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Nose.m; sourceTree = "<group>"; };
+		98CBADC51A5C8FD4002C1EBC /* Eyes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Eyes.h; sourceTree = "<group>"; };
+		98CBADC61A5C8FD4002C1EBC /* Eyes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Eyes.m; sourceTree = "<group>"; };
+		98CBADC81A5C911B002C1EBC /* Lips.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lips.h; sourceTree = "<group>"; };
+		98CBADC91A5C911B002C1EBC /* Lips.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lips.m; sourceTree = "<group>"; };
+		98CBADCB1A5C912E002C1EBC /* Ears.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ears.h; sourceTree = "<group>"; };
+		98CBADCC1A5C912E002C1EBC /* Ears.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ears.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98CBAD371A5C2A1E002C1EBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98CBAD501A5C2A1E002C1EBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		98CBAD311A5C2A1E002C1EBC = {
+			isa = PBXGroup;
+			children = (
+				98CBAD3C1A5C2A1E002C1EBC /* Human */,
+				98CBAD561A5C2A1E002C1EBC /* HumanTests */,
+				98CBAD3B1A5C2A1E002C1EBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		98CBAD3B1A5C2A1E002C1EBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98CBAD3A1A5C2A1E002C1EBC /* Human.app */,
+				98CBAD531A5C2A1E002C1EBC /* HumanTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98CBAD3C1A5C2A1E002C1EBC /* Human */ = {
+			isa = PBXGroup;
+			children = (
+				98CBAD7B1A5C6E03002C1EBC /* Head.h */,
+				98CBAD7C1A5C6E03002C1EBC /* Head.m */,
+				98CBADCB1A5C912E002C1EBC /* Ears.h */,
+				98CBADCC1A5C912E002C1EBC /* Ears.m */,
+				98CBADC51A5C8FD4002C1EBC /* Eyes.h */,
+				98CBADC61A5C8FD4002C1EBC /* Eyes.m */,
+				98CBADC21A5C8F63002C1EBC /* Nose.h */,
+				98CBADC31A5C8F63002C1EBC /* Nose.m */,
+				98CBAD8A1A5C7EFB002C1EBC /* Mouth.h */,
+				98CBAD8B1A5C7EFB002C1EBC /* Mouth.m */,
+				98CBADC81A5C911B002C1EBC /* Lips.h */,
+				98CBADC91A5C911B002C1EBC /* Lips.m */,
+				98CBAD751A5C6B8F002C1EBC /* Body.h */,
+				98CBAD761A5C6B8F002C1EBC /* Body.m */,
+				98CBAD871A5C79C9002C1EBC /* Neck.h */,
+				98CBAD881A5C79C9002C1EBC /* Neck.m */,
+				98CBAD631A5C386C002C1EBC /* Arm.h */,
+				98CBAD641A5C386C002C1EBC /* Arm.m */,
+				98CBAD661A5C3887002C1EBC /* hand.h */,
+				98CBAD671A5C3887002C1EBC /* hand.m */,
+				98CBAD691A5C38A7002C1EBC /* finger.h */,
+				98CBAD6A1A5C38A7002C1EBC /* finger.m */,
+				98CBAD6C1A5C391A002C1EBC /* Thumb.h */,
+				98CBAD6D1A5C391A002C1EBC /* Thumb.m */,
+				98CBAD781A5C6DA2002C1EBC /* Leg.h */,
+				98CBAD791A5C6DA2002C1EBC /* Leg.m */,
+				98CBAD7E1A5C727C002C1EBC /* Knee.h */,
+				98CBAD7F1A5C727C002C1EBC /* Knee.m */,
+				98CBAD811A5C7502002C1EBC /* Foot.h */,
+				98CBAD821A5C7502002C1EBC /* Foot.m */,
+				98CBAD841A5C7683002C1EBC /* Toe.h */,
+				98CBAD851A5C7683002C1EBC /* Toe.m */,
+				98CBAD3D1A5C2A1E002C1EBC /* Supporting Files */,
+				98CBAD6F1A5C6684002C1EBC /* Human.h */,
+				98CBAD701A5C6684002C1EBC /* Human.m */,
+			);
+			path = Human;
+			sourceTree = "<group>";
+		};
+		98CBAD3D1A5C2A1E002C1EBC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				98CBAD4A1A5C2A1E002C1EBC /* Images.xcassets */,
+				98CBAD4C1A5C2A1E002C1EBC /* LaunchScreen.xib */,
+				98CBAD411A5C2A1E002C1EBC /* AppDelegate.h */,
+				98CBAD421A5C2A1E002C1EBC /* AppDelegate.m */,
+				98CBAD3E1A5C2A1E002C1EBC /* Info.plist */,
+				98CBAD3F1A5C2A1E002C1EBC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		98CBAD561A5C2A1E002C1EBC /* HumanTests */ = {
+			isa = PBXGroup;
+			children = (
+				98CBAD591A5C2A1E002C1EBC /* HumanTests.m */,
+				98CBAD571A5C2A1E002C1EBC /* Supporting Files */,
+			);
+			path = HumanTests;
+			sourceTree = "<group>";
+		};
+		98CBAD571A5C2A1E002C1EBC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				98CBAD581A5C2A1E002C1EBC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98CBAD391A5C2A1E002C1EBC /* Human */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98CBAD5D1A5C2A1E002C1EBC /* Build configuration list for PBXNativeTarget "Human" */;
+			buildPhases = (
+				98CBAD361A5C2A1E002C1EBC /* Sources */,
+				98CBAD371A5C2A1E002C1EBC /* Frameworks */,
+				98CBAD381A5C2A1E002C1EBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Human;
+			productName = Human;
+			productReference = 98CBAD3A1A5C2A1E002C1EBC /* Human.app */;
+			productType = "com.apple.product-type.application";
+		};
+		98CBAD521A5C2A1E002C1EBC /* HumanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98CBAD601A5C2A1E002C1EBC /* Build configuration list for PBXNativeTarget "HumanTests" */;
+			buildPhases = (
+				98CBAD4F1A5C2A1E002C1EBC /* Sources */,
+				98CBAD501A5C2A1E002C1EBC /* Frameworks */,
+				98CBAD511A5C2A1E002C1EBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98CBAD551A5C2A1E002C1EBC /* PBXTargetDependency */,
+			);
+			name = HumanTests;
+			productName = HumanTests;
+			productReference = 98CBAD531A5C2A1E002C1EBC /* HumanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98CBAD321A5C2A1E002C1EBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Nick Cowart";
+				TargetAttributes = {
+					98CBAD391A5C2A1E002C1EBC = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					98CBAD521A5C2A1E002C1EBC = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 98CBAD391A5C2A1E002C1EBC;
+					};
+				};
+			};
+			buildConfigurationList = 98CBAD351A5C2A1E002C1EBC /* Build configuration list for PBXProject "Human" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 98CBAD311A5C2A1E002C1EBC;
+			productRefGroup = 98CBAD3B1A5C2A1E002C1EBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98CBAD391A5C2A1E002C1EBC /* Human */,
+				98CBAD521A5C2A1E002C1EBC /* HumanTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98CBAD381A5C2A1E002C1EBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98CBAD4E1A5C2A1E002C1EBC /* LaunchScreen.xib in Resources */,
+				98CBAD4B1A5C2A1E002C1EBC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98CBAD511A5C2A1E002C1EBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98CBAD361A5C2A1E002C1EBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98CBAD7A1A5C6DA2002C1EBC /* Leg.m in Sources */,
+				98CBAD711A5C6684002C1EBC /* Human.m in Sources */,
+				98CBAD6E1A5C391A002C1EBC /* Thumb.m in Sources */,
+				98CBAD8C1A5C7EFB002C1EBC /* Mouth.m in Sources */,
+				98CBAD861A5C7683002C1EBC /* Toe.m in Sources */,
+				98CBAD681A5C3887002C1EBC /* hand.m in Sources */,
+				98CBADC41A5C8F63002C1EBC /* Nose.m in Sources */,
+				98CBAD651A5C386C002C1EBC /* Arm.m in Sources */,
+				98CBAD831A5C7502002C1EBC /* Foot.m in Sources */,
+				98CBAD7D1A5C6E03002C1EBC /* Head.m in Sources */,
+				98CBAD431A5C2A1E002C1EBC /* AppDelegate.m in Sources */,
+				98CBAD6B1A5C38A7002C1EBC /* finger.m in Sources */,
+				98CBAD801A5C727C002C1EBC /* Knee.m in Sources */,
+				98CBADCA1A5C911B002C1EBC /* Lips.m in Sources */,
+				98CBAD401A5C2A1E002C1EBC /* main.m in Sources */,
+				98CBAD891A5C79C9002C1EBC /* Neck.m in Sources */,
+				98CBAD771A5C6B8F002C1EBC /* Body.m in Sources */,
+				98CBADCD1A5C912E002C1EBC /* Ears.m in Sources */,
+				98CBADC71A5C8FD4002C1EBC /* Eyes.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98CBAD4F1A5C2A1E002C1EBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98CBAD5A1A5C2A1E002C1EBC /* HumanTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		98CBAD551A5C2A1E002C1EBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98CBAD391A5C2A1E002C1EBC /* Human */;
+			targetProxy = 98CBAD541A5C2A1E002C1EBC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		98CBAD4C1A5C2A1E002C1EBC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98CBAD4D1A5C2A1E002C1EBC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		98CBAD5B1A5C2A1E002C1EBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		98CBAD5C1A5C2A1E002C1EBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98CBAD5E1A5C2A1E002C1EBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Human/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		98CBAD5F1A5C2A1E002C1EBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Human/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		98CBAD611A5C2A1E002C1EBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HumanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Human.app/Human";
+			};
+			name = Debug;
+		};
+		98CBAD621A5C2A1E002C1EBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HumanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Human.app/Human";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98CBAD351A5C2A1E002C1EBC /* Build configuration list for PBXProject "Human" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98CBAD5B1A5C2A1E002C1EBC /* Debug */,
+				98CBAD5C1A5C2A1E002C1EBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98CBAD5D1A5C2A1E002C1EBC /* Build configuration list for PBXNativeTarget "Human" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98CBAD5E1A5C2A1E002C1EBC /* Debug */,
+				98CBAD5F1A5C2A1E002C1EBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		98CBAD601A5C2A1E002C1EBC /* Build configuration list for PBXNativeTarget "HumanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98CBAD611A5C2A1E002C1EBC /* Debug */,
+				98CBAD621A5C2A1E002C1EBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98CBAD321A5C2A1E002C1EBC /* Project object */;
+}
