@@ -189,11 +189,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PuU-ur-Fyy" customClass="PrettyButton">
-                                <rect key="frame" x="266" y="80" width="69" height="69"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PuU-ur-Fyy" customClass="PrettyButton">
+                                <rect key="frame" x="266" y="43" width="69" height="69"/>
                                 <color key="backgroundColor" red="1" green="0.36585590804641632" blue="0.88659560082381805" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="0mQ-JY-Gl6"/>
+                                    <constraint firstAttribute="height" constant="69" id="g4Y-l2-g0M"/>
                                 </constraints>
                                 <state key="normal" title="Button 1">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -212,9 +213,12 @@
                                     <action selector="button1:" destination="Sbr-YV-wLv" eventType="touchUpInside" id="c61-K0-4ne"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dnb-Mf-C29" customClass="PrettyButton">
-                                <rect key="frame" x="266" y="303" width="69" height="69"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dnb-Mf-C29" customClass="PrettyButton">
+                                <rect key="frame" x="266" y="274" width="69" height="69"/>
                                 <color key="backgroundColor" red="0.82986829100000004" green="0.87458570079999998" blue="0.1192369286" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="69" id="5ak-7v-fle"/>
+                                </constraints>
                                 <state key="normal" title="Button 3">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -227,24 +231,12 @@
                                     <action selector="button3:" destination="Sbr-YV-wLv" eventType="touchUpInside" id="rdT-sn-08y"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xSR-23-TzO" customClass="PrettyButton">
-                                <rect key="frame" x="266" y="413" width="69" height="69"/>
-                                <color key="backgroundColor" red="0.90674321338383834" green="0.080796481920526395" blue="0.10558056398621532" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Button 4">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerSize">
-                                        <integer key="value" value="34"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <action selector="button4:" destination="Sbr-YV-wLv" eventType="touchUpInside" id="5QQ-Ps-V9F"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="516-if-Cch" customClass="PrettyButton">
-                                <rect key="frame" x="266" y="176" width="69" height="69"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="516-if-Cch" customClass="PrettyButton">
+                                <rect key="frame" x="266" y="161" width="69" height="69"/>
                                 <color key="backgroundColor" red="0.076607867230000001" green="1" blue="0.8273893242" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="69" id="nae-ow-Mfe"/>
+                                </constraints>
                                 <state key="normal" title="Button 2">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -257,20 +249,50 @@
                                     <action selector="button2:" destination="Sbr-YV-wLv" eventType="touchUpInside" id="wJt-FX-Lgi"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xSR-23-TzO" customClass="PrettyButton">
+                                <rect key="frame" x="266" y="396" width="69" height="69"/>
+                                <color key="backgroundColor" red="0.90674321338383834" green="0.080796481920526395" blue="0.10558056398621532" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="69" id="0lv-vj-SKf"/>
+                                </constraints>
+                                <state key="normal" title="Button 4">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerSize">
+                                        <integer key="value" value="34"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="button4:" destination="Sbr-YV-wLv" eventType="touchUpInside" id="5QQ-Ps-V9F"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="516-if-Cch" firstAttribute="top" secondItem="PuU-ur-Fyy" secondAttribute="bottom" constant="49" id="0ga-QU-4OH"/>
                             <constraint firstItem="dnb-Mf-C29" firstAttribute="height" secondItem="516-if-Cch" secondAttribute="height" id="2XH-H6-1lE"/>
                             <constraint firstItem="516-if-Cch" firstAttribute="leading" secondItem="plP-eO-FBZ" secondAttribute="leadingMargin" id="8Jn-kM-rtF"/>
+                            <constraint firstItem="dnb-Mf-C29" firstAttribute="top" secondItem="516-if-Cch" secondAttribute="bottom" constant="44" id="B2B-71-DIL"/>
                             <constraint firstItem="xSR-23-TzO" firstAttribute="height" secondItem="PuU-ur-Fyy" secondAttribute="height" id="KJ6-Xr-5on"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="xSR-23-TzO" secondAttribute="trailing" constant="249" id="O3h-Ts-YhV"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="PuU-ur-Fyy" secondAttribute="trailing" constant="249" id="O8Y-2P-804"/>
+                            <constraint firstItem="516-if-Cch" firstAttribute="leading" secondItem="plP-eO-FBZ" secondAttribute="leadingMargin" constant="250" id="Q3p-RH-Lkt"/>
                             <constraint firstItem="PuU-ur-Fyy" firstAttribute="top" secondItem="xZE-Oi-b3B" secondAttribute="bottom" constant="88" id="UC2-Sk-U0H"/>
                             <constraint firstItem="PuU-ur-Fyy" firstAttribute="height" secondItem="516-if-Cch" secondAttribute="height" id="ULs-10-1zT"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="516-if-Cch" secondAttribute="trailing" constant="249" id="Ulo-f4-vbV"/>
                             <constraint firstItem="516-if-Cch" firstAttribute="trailing" secondItem="plP-eO-FBZ" secondAttribute="trailingMargin" id="WSA-6y-8NT"/>
+                            <constraint firstItem="PuU-ur-Fyy" firstAttribute="top" secondItem="xZE-Oi-b3B" secondAttribute="bottom" constant="23" id="aQK-S2-KV4"/>
                             <constraint firstItem="PuU-ur-Fyy" firstAttribute="trailing" secondItem="plP-eO-FBZ" secondAttribute="trailingMargin" id="dRi-cL-ySt"/>
+                            <constraint firstItem="dnb-Mf-C29" firstAttribute="leading" secondItem="plP-eO-FBZ" secondAttribute="leadingMargin" constant="250" id="ffe-vW-6CH"/>
+                            <constraint firstItem="ksB-kL-AH0" firstAttribute="top" secondItem="xSR-23-TzO" secondAttribute="bottom" constant="135" id="iwX-PW-2Y5"/>
                             <constraint firstItem="xSR-23-TzO" firstAttribute="width" secondItem="PuU-ur-Fyy" secondAttribute="width" id="lMS-Kc-tZC"/>
+                            <constraint firstItem="PuU-ur-Fyy" firstAttribute="leading" secondItem="plP-eO-FBZ" secondAttribute="leadingMargin" constant="250" id="rQf-o4-0Yo"/>
                             <constraint firstItem="dnb-Mf-C29" firstAttribute="width" secondItem="516-if-Cch" secondAttribute="width" id="sOs-Wv-AQr"/>
                             <constraint firstItem="PuU-ur-Fyy" firstAttribute="leading" secondItem="plP-eO-FBZ" secondAttribute="leadingMargin" id="utb-NF-JKP"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="dnb-Mf-C29" secondAttribute="trailing" constant="249" id="wGp-w8-wYX"/>
                             <constraint firstItem="516-if-Cch" firstAttribute="top" secondItem="PuU-ur-Fyy" secondAttribute="bottom" constant="42" id="y9n-tH-GtM"/>
+                            <constraint firstItem="xSR-23-TzO" firstAttribute="leading" secondItem="plP-eO-FBZ" secondAttribute="leadingMargin" constant="250" id="ygf-4N-GAh"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">

@@ -7,7 +7,6 @@
 //
 
 #import "FriendsTVC.h"
-
 #import "FriendsCell.h"
 #import "NewFriendVC.h"
 #import "FriendDetailVC.h"
@@ -32,7 +31,8 @@
                  
                  
              @{
-                 
+                
+        @"login":@"NRHCowarT",
         @"id": @10394496,
         @"avatar_url": @"https://avatars.githubusercontent.com/u/10394496?v=3",
         @"name": @"Nicholas Cowart",
@@ -126,6 +126,16 @@
     
     return cell;
 }
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    FriendDetailVC * detailVC = [[FriendDetailVC alloc] init];
+    
+    detailVC.friendInfo = friends[indexPath.row];
+    
+    [self.navigationController pushViewController:detailVC animated:YES];
+}
+
 
 
 /*

@@ -13,10 +13,8 @@
 
 // Only override drawRect: if you perform custom drawing.
 // An empty implementation adversely affects performance during animation.
-    // Drawing code
-
 - (void)drawRect:(CGRect)rect {
-
+    // Drawing code
     
     self.layer.cornerRadius = self.cornerSize;
     self.layer.masksToBounds = YES;

@@ -24,15 +24,20 @@
 //make selecting a cell push to FriendDetailVC
 //and set friendInfo based on cell selected
 
-@interface FriendDetailVC ()
+@interface FriendDetailVC () <UITableViewDelegate,UITableViewDataSource>
 
 @end
 
 @implementation FriendDetailVC
+{
+    NSArray * repos;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    self.view.backgroundColor = [UIColor whiteColor];
     
     NSString * username = self.friendInfo[@"login"];
     
@@ -43,9 +48,49 @@
     
     NSData * responseDate =[NSURLConnection sendSynchronousRequest: request returningResponse:nil error:nil];
     
-    NSArray * repos = [NSJSONSerialization JSONObjectWithData:responseDate options:NSJSONReadingMutableContainers error:nil];
-                            
+    repos = [NSJSONSerialization JSONObjectWithData:responseDate options:NSJSONReadingMutableContainers error:nil];
+    
+    UITableView * tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 200, 320, 368)];
+    
     NSLog(@"%@",repos);
+
+    
+    tableView.delegate = self;
+    tableView.dataSource = self;
+    
+    [self.view addSubview:tableView];
+    
+}
+
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    return repos.count;
+}
+
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+
+    UITableViewCell * cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:@"cell"];
+
+    
+    
+    
+//    NSDictionary * repoInfo = repos[indexPath.row];
+//    cell.textLabel.text = repoInfo[A"name"];
+//   this 2 lines above ^ is same as this first line below
+    
+    cell.textLabel.text = repos[indexPath.row][@"name"];
+    
+    if (repos[indexPath.row][@"description"] == [NSNull null]) {
+        
+    } else {
+    
+    cell.detailTextLabel.text = repos[indexPath.row][@"description"];
+    }
+    
+    return cell;
+}
+
+
+    
     
     //    NSString *username = self.friendInfo[@"Log In"];
 //    
@@ -61,7 +106,7 @@
 //    NSLog(@"%@",repos);
     
 // what we think i wants us to do^
-}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

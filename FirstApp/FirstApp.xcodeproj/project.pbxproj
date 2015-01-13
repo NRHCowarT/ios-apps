@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		981A10EB1A61FF350003486F /* PrettyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 981A10E91A61FF350003486F /* PrettyButton.m */; };
 		98FA82DA1A5AD50F00BD99BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 98FA82D91A5AD50F00BD99BF /* main.m */; };
 		98FA82DD1A5AD50F00BD99BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 98FA82DC1A5AD50F00BD99BF /* AppDelegate.m */; };
 		98FA82E01A5AD50F00BD99BF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98FA82DF1A5AD50F00BD99BF /* ViewController.m */; };
@@ -14,7 +15,6 @@
 		98FA82E51A5AD50F00BD99BF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98FA82E41A5AD50F00BD99BF /* Images.xcassets */; };
 		98FA82E81A5AD50F00BD99BF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98FA82E61A5AD50F00BD99BF /* LaunchScreen.xib */; };
 		98FA82F41A5AD50F00BD99BF /* FirstAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98FA82F31A5AD50F00BD99BF /* FirstAppTests.m */; };
-		98FA82FF1A5AE82500BD99BF /* PrettyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 98FA82FE1A5AE82500BD99BF /* PrettyButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		981A10E91A61FF350003486F /* PrettyButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrettyButton.m; sourceTree = "<group>"; };
+		981A10EA1A61FF350003486F /* PrettyButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrettyButton.h; sourceTree = "<group>"; };
 		98FA82D41A5AD50F00BD99BF /* FirstApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98FA82D81A5AD50F00BD99BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		98FA82D91A5AD50F00BD99BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -41,8 +43,6 @@
 		98FA82ED1A5AD50F00BD99BF /* FirstAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		98FA82F21A5AD50F00BD99BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		98FA82F31A5AD50F00BD99BF /* FirstAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstAppTests.m; sourceTree = "<group>"; };
-		98FA82FD1A5AE82500BD99BF /* PrettyButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PrettyButton.h; path = ../../PrettyButton.h; sourceTree = "<group>"; };
-		98FA82FE1A5AE82500BD99BF /* PrettyButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PrettyButton.m; path = ../../PrettyButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,8 +84,8 @@
 		98FA82D61A5AD50F00BD99BF /* FirstApp */ = {
 			isa = PBXGroup;
 			children = (
-				98FA82FD1A5AE82500BD99BF /* PrettyButton.h */,
-				98FA82FE1A5AE82500BD99BF /* PrettyButton.m */,
+				981A10E91A61FF350003486F /* PrettyButton.m */,
+				981A10EA1A61FF350003486F /* PrettyButton.h */,
 				98FA82DE1A5AD50F00BD99BF /* ViewController.h */,
 				98FA82DF1A5AD50F00BD99BF /* ViewController.m */,
 				98FA82E11A5AD50F00BD99BF /* Main.storyboard */,
@@ -225,7 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				98FA82E01A5AD50F00BD99BF /* ViewController.m in Sources */,
-				98FA82FF1A5AE82500BD99BF /* PrettyButton.m in Sources */,
+				981A10EB1A61FF350003486F /* PrettyButton.m in Sources */,
 				98FA82DD1A5AD50F00BD99BF /* AppDelegate.m in Sources */,
 				98FA82DA1A5AD50F00BD99BF /* main.m in Sources */,
 			);
@@ -418,6 +418,7 @@
 				98FA82F91A5AD50F00BD99BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		98FA82FA1A5AD50F00BD99BF /* Build configuration list for PBXNativeTarget "FirstAppTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +427,7 @@
 				98FA82FC1A5AD50F00BD99BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
